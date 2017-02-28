@@ -1,0 +1,40 @@
+= Cheatsheets
+
+[[Product]]
+== Product
+
+++++
+ Product data object.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[illustration]]`illustration`|`String`|-
+|[[name]]`name`|`String`|-
+|[[price]]`price`|`Number (double)`|-
+|[[productId]]`productId`|`String`|-
+|[[sellerId]]`sellerId`|`String`|-
+|[[type]]`type`|`String`|-
+|===
+
+[[ProductTuple]]
+== ProductTuple
+
+++++
+ A product tuple represents the amount of a certain product in a shopping.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[amount]]`amount`|`Number (Integer)`|-
+|[[price]]`price`|`Number (Double)`|-
+|[[productId]]`productId`|`String`|-
+|[[sellerId]]`sellerId`|`String`|-
+|===
+
